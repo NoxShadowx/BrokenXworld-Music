@@ -7,6 +7,8 @@ import asyncio
 import signal
 import importlib
 from contextlib import suppress
+from threading import Thread
+from anony.web import run
 
 from anony import (anon, app, config, db, logger,
                    stop, thumb, userbot, yt)
@@ -44,6 +46,8 @@ async def main():
     await idle()
     asyncio.create_task(stop())
 
+
+Thread(target=run, daemon=True).start()
 
 if __name__ == "__main__":
     try:
