@@ -8,7 +8,11 @@ def home():
     return "BrokenXworld Music Bot is Running!"
 
 def run():
+    port = int(os.environ.get("PORT", 10000))
+    print(f"Starting Flask on port {port}")
     app.run(
         host="0.0.0.0",
-        port=int(os.environ.get("PORT", 10000))
+        port=port,
+        debug=False,
+        use_reloader=False,
     )
