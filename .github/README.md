@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2>AnonXMusic</h2>
+<h2>Chikoo Music</h2>
 
 <b>Telegram Group Calls Streaming Bot</b><br>
 Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
@@ -21,7 +21,7 @@ Supports YouTube, Spotify, Resso, Apple Music, SoundCloud and M3U8 links.
 
 <img src="https://github.com/noxarix/BrokenXworld-Music/blob/master/.github/anonx.jpg" width="720" height="auto">
 
-AnonXMusic lets you stream high-quality and low-latency audio and video playback into telegram group video chats.<br>
+Chikoo Music lets you stream high-quality and low-latency audio and video playback into telegram group video chats.<br>
 Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability and easy deployment on Heroku, VPS, or Docker.
 </div>
 
@@ -53,7 +53,7 @@ Built with Python, Pyrogram, and Py-TgCalls, it’s optimized for reliability an
 <h4>🐧 Linux/macOS</h4>
 
 ```bash
-git clone https://github.com/noxarix/BrokenXworld-Music && cd AnonXMusic
+git clone https://github.com/noxarix/BrokenXworld-Music && cd BrokenXworld-Music
 
 # Install uv
 curl -Ls https://astral.sh/uv/install.sh | sh
@@ -73,7 +73,7 @@ bash start
 <h4>🪟 Windows (PowerShell)</h4>
 
 ```bash
-git clone https://github.com/noxarix/BrokenXworld-Music && cd AnonXMusic
+git clone https://github.com/noxarix/BrokenXworld-Music && cd BrokenXworld-Music
 
 # Install uv
 irm https://astral.sh/uv/install.ps1 | iex
@@ -168,8 +168,8 @@ This project is licensed under the <b>MIT License</b> — see <a href="https://g
 
 <h2>🤞 Updates and support</h2>
 
-- <a href="https://fallenx.t.me">Updates channel</a>
-- <a href="https://DevilsHeavenMF.t.me">Support group</a>
+- <a href="https://t.me/BrokenXworld">Updates channel</a>
+- <a href="https://t.me/Music_Brigade_Chatting_zone">Support group</a>
 
 <hr>
 
